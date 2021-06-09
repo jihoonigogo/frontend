@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Bit-SpringBoot-Web</title>
+    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+</head>
+<body>
+<h1>스프링 부트 웹 프로젝트</h1>
+<div class="col-md-12">
+
+        <tbody id="tbody">
+        {{#users}}
+            <tr>
+                <td>{{email}}</a></td>
+                <td>{{password}}</td>
+                <td>{{nickname}}</td>
+                <td>{{level}}</td>
+            </tr>
+        {{/users}}
+        </tbody>
+
+</div>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" ></script>
+<script src="/js/app/index.js"></script>
+
+</body>
+</html>
