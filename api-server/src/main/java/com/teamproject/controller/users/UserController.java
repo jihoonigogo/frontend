@@ -25,7 +25,4 @@ public class UserController {
     {
         return "joinus";
     }
-
-
-
 }
